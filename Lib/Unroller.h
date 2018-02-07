@@ -22,7 +22,7 @@
 
 // Unroll a loop
 
-namespace andrivet { namespace ADVobfuscator {
+namespace ADVobfuscator {
 
 template <int N>
 struct Unroller
@@ -45,6 +45,6 @@ struct Unroller<1>
     }
 };
 
-}}
+}
 
 #endif

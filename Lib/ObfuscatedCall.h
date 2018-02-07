@@ -28,7 +28,7 @@
 // In this example, the target is called at the end of the FSM so it can be located.
 // In production, it would be better to put it in the middle of the FSM with some computing triggering it.
 
-namespace andrivet { namespace ADVobfuscator { namespace Machine1 {
+namespace ADVobfuscator { namespace Machine1 {
 
     // Finite State Machine
     // E: Event associated with target
@@ -113,7 +113,7 @@ namespace andrivet { namespace ADVobfuscator { namespace Machine1 {
         R result_;
     };
 
-}}}
+}}
 
 
 #pragma warning(push)

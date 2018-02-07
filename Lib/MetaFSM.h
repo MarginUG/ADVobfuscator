@@ -42,7 +42,7 @@ namespace msm = boost::msm;
 namespace mpl = boost::mpl;
 using namespace boost::msm::front;
 
-namespace andrivet { namespace ADVobfuscator {
+namespace ADVobfuscator {
 
     // Same as void but can be instantiated
     struct Void {};
@@ -167,6 +167,6 @@ namespace andrivet { namespace ADVobfuscator {
     template<typename F>
     constexpr ObfuscatedAddress<F> MakeObfuscatedAddress(F f, int offset) { return ObfuscatedAddress<F>(f, offset); }
 
-}}
+}
 
 #endif

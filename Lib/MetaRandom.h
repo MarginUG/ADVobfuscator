@@ -27,7 +27,7 @@
 
 #include <random>
 
-namespace andrivet { namespace ADVobfuscator {
+namespace ADVobfuscator {
 
 namespace
 {
@@ -84,6 +84,6 @@ struct MetaRandom
     static const int value = MetaRandomGenerator<N + 1>::value % M;
 };
 
-}}
+}
 
 #endif

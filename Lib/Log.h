@@ -23,7 +23,7 @@
 #include <iomanip>
 #include <iostream> // [fokede] mingw compatibility
 
-namespace andrivet { namespace ADVobfuscator {
+namespace ADVobfuscator {
 
 // Inspired from work of Martin Stettner and Jimmy J
 
@@ -44,7 +44,7 @@ inline HexChar hex(char c, int w = 2)
     return HexChar(c, w);
 }
 
-}}
+}
 
 #if (defined(DEBUG) && DEBUG == 1) || (defined(ADVLOG) && ADVLOG == 1)
 #define LOG(str) std::cerr << str << std::endl

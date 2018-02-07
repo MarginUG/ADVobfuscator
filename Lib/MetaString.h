@@ -25,7 +25,7 @@
 #include "MetaRandom.h"
 #include "Log.h"
 
-namespace andrivet { namespace ADVobfuscator {
+namespace ADVobfuscator {
 
   // Represents an obfuscated string, parametrized with an alrorithm number N, a list of indexes Indexes and a key Key
 
@@ -131,10 +131,10 @@ namespace andrivet { namespace ADVobfuscator {
   };
 
 
-}}
+}
 
 // Prefix notation
-#define DEF_OBFUSCATED(str) MetaString<andrivet::ADVobfuscator::MetaRandom<__COUNTER__, 3>::value, andrivet::ADVobfuscator::MetaRandomChar<__COUNTER__>::value, Make_Indexes<sizeof(str) - 1>::type>(str)
+#define DEF_OBFUSCATED(str) MetaString<ADVobfuscator::MetaRandom<__COUNTER__, 3>::value, ADVobfuscator::MetaRandomChar<__COUNTER__>::value, Make_Indexes<sizeof(str) - 1>::type>(str)
 
 #define OBFUSCATED(str) (DEF_OBFUSCATED(str).decrypt())
 

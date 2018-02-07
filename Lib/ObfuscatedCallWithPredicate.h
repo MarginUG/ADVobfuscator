@@ -26,7 +26,7 @@
 // Obfuscate function call with a finite state machine (FSM).
 // In this example, the execution of the FSM is combined with the checking of a predicate (is a debugger present or not).
 
-namespace andrivet { namespace ADVobfuscator { namespace Machine2 {
+namespace ADVobfuscator { namespace Machine2 {
 
     // Finite State Machine
     // E: Event associated with target
@@ -158,7 +158,7 @@ namespace andrivet { namespace ADVobfuscator { namespace Machine2 {
         int predicateCounter_ = predicateCounterInit_;
     };
 
-}}}
+}}
 
 // Warning: ##__VA_ARGS__ is not portable (only __VA_ARGS__ is). However, ##__VA_ARGS__ is far better (handles cases when it is empty) and supported by most compilers
 
