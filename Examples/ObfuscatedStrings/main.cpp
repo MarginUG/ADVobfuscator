@@ -31,7 +31,7 @@
 #include "MetaString.h"
 
 using namespace std;
-using namespace andrivet::ADVobfuscator;
+using namespace ADVobfuscator;
 
 
 // Declare and use at the same time
